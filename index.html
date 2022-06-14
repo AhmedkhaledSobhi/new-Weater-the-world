@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black py-5">
+        <div class="container w-75">
+            <a class="navbar-brand d-flex" href="#"> <img src="images/logo@2x.png" alt="" class="me-3" width="64" height="38">
+                <div class="logo">
+                    <h6 class="text-white fs-">Weather</h6> 
+                    <small class=" text-white fs-6"> tagline goes here</small>
+                </div>
+            </a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0  menu">
+              <li class="nav-item menu-item current-menu-item mx-2 ">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item menu-item  mx-2">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item  mx-2">
+                <a class="nav-link text-white" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item  mx-2">
+                <a class="nav-link text-white" href="#">Photos</a>
+              </li>
+              <li class="nav-item  mx-2">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <header>
+          <div class="bg-img w-100 h-100 py-5">
+            <form class="my-5 w-75 m-auto position-relative">
+                <input oninput="getNewWeather(this.value)" id="searchCountri" class="form-control colore-he-crud border rounded-pill bg-dark py-3 " name="" type="text" placeholder="Find your location...">
+                <input  type="button" value="Find" class="btn rounded-pill position-absolute">
+            </form>
+            <div class="w-75 m-auto">
+                <div class="row my-5 bg-back-div " id="weatherNew">
+            </div>
+          </div>
+        
+      </header>
+      <footer class="bg-he-crud py-5">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-8 me-auto">
+                    <div class="gy-0">
+                      <form class="my-5 w-100  position-relative">
+                          <input class="form-control colore-he-crud border rounded-pill bg-dark py-3 " name="" type="text" placeholder="Enter your email to subscribe..." id="addSearch">
+                          <input type="button" value="Subscribe" class="btn rounded-pill position-absolute">
+                      </form>
+                    </div>
+                    <p class="gy-0 colore-he-crud">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-lg-3  me-auto">
+                    <div class="d-flex justify-content-center align-items-center my-5">
+                        <div class="d-flex">
+                            <div class="mx-1 border-0 rounded-circle d-flex justify-content-center align-items-center bg-icone-footer"> 
+                                <i class="fa-brands fa-facebook-f fa-2x color-sum"></i>
+                            </div>
+                            <div class="mx-1 border-0 rounded-circle d-flex justify-content-center align-items-center bg-icone-footer"> 
+                                <i class="fa-brands fa-twitter fa-2x color-sum"></i>
+                            </div>
+                            <div class="mx-1 border-0 rounded-circle d-flex justify-content-center align-items-center bg-icone-footer"> 
+                                <i class="fa-brands fa-google-plus-g fa-2x color-sum"></i>
+                            </div>
+                            <div class="mx-1 border-0 rounded-circle d-flex justify-content-center align-items-center bg-icone-footer"> 
+                                <i class="fa-brands fa-pinterest fa-2x color-sum"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+          </div>
+        
+      </footer>
+
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

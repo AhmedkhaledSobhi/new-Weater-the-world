@@ -1,0 +1,96 @@
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.menu >.menu-item>.active
+{
+    border: .5px solid !important;
+    border-radius: 15px !important;
+    border-color:#009ad8 !important ;
+}
+.menu >.menu-item>.active:hover
+{
+    border:0px solid !important;
+    
+}
+.navbar ul li
+{
+    border: 2px  solid;
+    border-radius: 20px;
+}
+.navbar ul li:hover
+{
+    border-color:#009ad8 !important ;
+}
+.navbar ul a
+{
+    padding: 2px 25px !important;
+}
+.navbar ul a:hover
+{
+    color: #009ad8 !important;
+}
+
+form input[type='button']
+{
+    padding: 3px 35px !important;
+    right:10px;
+    top:7px ;
+    bottom: 7px;
+    background-color: #009ad8;
+    color: white;
+}
+
+.bg-img
+{
+    background-image: url(../images/banner.png);
+    background-size:cover ;
+    background-position: center center;
+}
+
+.bg-he-crud
+{
+background-color: #262936 !important;
+}
+.colore-he-crud
+{
+color: #bfc1c8 !important;
+}
+.color-sum
+{
+color: #009ad8
+}
+
+.bg-back-div
+{
+ background: #323544 !important;
+}
+.bg-back
+{  
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+footer .rounded-circle
+{
+    width: 45px !important;
+    height: 45px !important;
+}
+.bg-icone-footer
+{
+    background: #1e202b !important;
+}
+.bg-icone-footer:hover i
+{
+    color:white !important;
+}
+.bg-icone-footer:hover
+{
+    background: #009ad8 !important;
+}
+
+.fs-1
+{
+    font-size: 4rem !important;
+}
