@@ -6,7 +6,7 @@ let searchCountri=document.getElementById('searchCountri');
 
  async function getNewWeather( category = 'cairo')
  {
-    let response =await fetch(`http://api.weatherapi.com/v1/forecast.json?key=3398f7fbf7274337b8914631220306&days=3&q=${category}`);
+    let response =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=3398f7fbf7274337b8914631220306&days=3&q=${category}`);
     finaleResult = await response.json();
     
     newsWeather = finaleResult.location;
